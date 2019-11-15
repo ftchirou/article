@@ -1,0 +1,8 @@
+.DS_Store
+article.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+article/.swiftpm/
+articleCore/.swiftpm/
+.build/
+Packages/
+*.xcodeproj/
+xcuserdata/
