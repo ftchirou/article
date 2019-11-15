@@ -6,7 +6,7 @@
 
 ```
 article new <article-id>
-    Creates a new article with the specified id in $BLOG_HOME.
+    Creates a new article with the specified id in $BLOG_SRC.
 
 article make
     Generates the static HTML pages of the article in the current directory in $BLOG_BUILD.
