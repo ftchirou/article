@@ -1,6 +1,6 @@
 # 🤖 article
 
-`article` is a small command line tool I wrote in Swift to assist me in writing articles for my blog at [https://faical.dev](https://faical.dev).
+`article` is a small command line tool I wrote in Swift to assist me in [writing articles](https://github.com/ftchirou/faical.dev) for my blog at [https://faical.dev](https://faical.dev).
 
 ## Supported commands
 
@@ -9,10 +9,10 @@ article new <article-id>
     Creates a new article with the specified id in $BLOG_SRC.
 
 article make
-    Generates the static HTML pages of the article in the current directory in $BLOG_BUILD.
+    Generates the static HTML pages of the article in the current directory and saves them in $BLOG_BUILD.
 
 article make <article-id>
-    Generates the static HTML pages of the specified article in $BLOG_BUILD.
+    Generates the static HTML pages of the specified article and saves them in $BLOG_BUILD.
 
 article make-all
     Generates the static HTML pages for all the articles in $BLOG_SRC and saves them in $BLOG_BUILD.
