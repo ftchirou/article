@@ -32,7 +32,7 @@ extension Markdown {
 
         return String(components[1])
             .split(separator: " ")
-            .prefix(70)
+            .prefix(35)
             .joined(separator: " ") + "..."
     }
 }
