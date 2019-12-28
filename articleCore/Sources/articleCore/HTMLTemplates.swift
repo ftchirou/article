@@ -69,8 +69,8 @@ enum HTMLTemplates {
         }
 
         return """
-        <p>If you found this article useful, please consider sharing it on <a href="https://twitter.com/intent/tweet
-        ?url=\(percentEncodedUrl)&text=\(percentEncodedTitle)&via=ftchirou" rel="noopener" target="_blank">Twitter</a> with your network 🙂.</p>
+        <p>If you found this article useful, please consider <a href="https://twitter.com/intent/tweet
+        ?url=\(percentEncodedUrl)&text=\(percentEncodedTitle)&via=ftchirou" rel="noopener" target="_blank">sharing it on Twitter</a> with your network 🙂.</p>
         """
     }
 }
