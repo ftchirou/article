@@ -26,7 +26,7 @@ enum HTMLTemplates {
         }
 
         return """
-        <div class="articles"><h2>Latest Articles</h2><div class="articles-list">\(articles.map { articleDivTag($0) }.joined(separator: "\n"))</div></div>
+        <div class="articles"><h2>Articles</h2><div class="articles-list">\(articles.map { articleDivTag($0) }.joined(separator: "\n"))</div></div>
         """
     }
 
